@@ -16,8 +16,8 @@
 		5352DC0C187BD27D00E6EE3A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5352DC0B187BD27D00E6EE3A /* Default.png */; };
 		5352DC0E187BD27D00E6EE3A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5352DC0D187BD27D00E6EE3A /* Default@2x.png */; };
 		5352DC10187BD27D00E6EE3A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5352DC0F187BD27D00E6EE3A /* Default-568h@2x.png */; };
-		5352DC18187BD2AF00E6EE3A /* XXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5352DC17187BD2AF00E6EE3A /* XXViewController.m */; };
-		5352DC1E187BD31000E6EE3A /* UIButton+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 5352DC1D187BD31000E6EE3A /* UIButton+Block.m */; };
+		5352DC18187BD2AF00E6EE3A /* XXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5352DC17187BD2AF00E6EE3A /* XXViewController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		5352DC1E187BD31000E6EE3A /* UIButton+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 5352DC1D187BD31000E6EE3A /* UIButton+Block.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -253,6 +253,7 @@
 		5352DC14187BD27D00E6EE3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UIView+Category/UIView+Category-Prefix.pch";
 				INFOPLIST_FILE = "UIView+Category/UIView+Category-Info.plist";
@@ -264,6 +265,7 @@
 		5352DC15187BD27D00E6EE3A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UIView+Category/UIView+Category-Prefix.pch";
 				INFOPLIST_FILE = "UIView+Category/UIView+Category-Info.plist";
