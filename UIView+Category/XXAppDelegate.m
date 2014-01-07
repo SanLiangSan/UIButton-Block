@@ -7,6 +7,7 @@
 //
 
 #import "XXAppDelegate.h"
+#import "XXViewController.h"
 
 @implementation XXAppDelegate
 
@@ -21,6 +22,9 @@
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    XXViewController *root = [[XXViewController alloc] init];
+    self.window.rootViewController = root;
+    [root release];
     [self.window makeKeyAndVisible];
     return YES;
 }

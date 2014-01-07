@@ -16,6 +16,8 @@
 		5352DC0C187BD27D00E6EE3A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5352DC0B187BD27D00E6EE3A /* Default.png */; };
 		5352DC0E187BD27D00E6EE3A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5352DC0D187BD27D00E6EE3A /* Default@2x.png */; };
 		5352DC10187BD27D00E6EE3A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5352DC0F187BD27D00E6EE3A /* Default-568h@2x.png */; };
+		5352DC18187BD2AF00E6EE3A /* XXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5352DC17187BD2AF00E6EE3A /* XXViewController.m */; };
+		5352DC1E187BD31000E6EE3A /* UIButton+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 5352DC1D187BD31000E6EE3A /* UIButton+Block.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,10 @@
 		5352DC0B187BD27D00E6EE3A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		5352DC0D187BD27D00E6EE3A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		5352DC0F187BD27D00E6EE3A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5352DC16187BD2AF00E6EE3A /* XXViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXViewController.h; sourceTree = "<group>"; };
+		5352DC17187BD2AF00E6EE3A /* XXViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXViewController.m; sourceTree = "<group>"; };
+		5352DC1C187BD31000E6EE3A /* UIButton+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Block.h"; sourceTree = "<group>"; };
+		5352DC1D187BD31000E6EE3A /* UIButton+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Block.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,10 @@
 			children = (
 				5352DC08187BD27C00E6EE3A /* XXAppDelegate.h */,
 				5352DC09187BD27C00E6EE3A /* XXAppDelegate.m */,
+				5352DC16187BD2AF00E6EE3A /* XXViewController.h */,
+				5352DC17187BD2AF00E6EE3A /* XXViewController.m */,
+				5352DC1C187BD31000E6EE3A /* UIButton+Block.h */,
+				5352DC1D187BD31000E6EE3A /* UIButton+Block.m */,
 				5352DC00187BD27C00E6EE3A /* Supporting Files */,
 			);
 			path = "UIView+Category";
@@ -167,6 +177,8 @@
 			files = (
 				5352DC06187BD27C00E6EE3A /* main.m in Sources */,
 				5352DC0A187BD27C00E6EE3A /* XXAppDelegate.m in Sources */,
+				5352DC18187BD2AF00E6EE3A /* XXViewController.m in Sources */,
+				5352DC1E187BD31000E6EE3A /* UIButton+Block.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
